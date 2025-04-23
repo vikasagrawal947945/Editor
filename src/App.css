@@ -1,8 +1,10 @@
-.app-container {
+/* Notebook.css */
+
+.notebook-container {
   height: 100vh;
 }
 
-.create-screen {
+.empty-screen {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -11,13 +13,13 @@
   background-color: #f3f4f6;
 }
 
-.create-screen h1{
+.empty-screen h1 {
   font-weight: 700;
   font-size: 1.8rem;
   margin-bottom: 1rem;
 }
 
-.create-button {
+.start-button {
   background-color: #4f46e5;
   color: white;
   padding: 0.75rem 1.5rem;
@@ -26,8 +28,9 @@
   border-radius: 0.5rem;
   border: none;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.create-button:hover {
+.start-button:hover {
   background-color: #4338ca;
 }
